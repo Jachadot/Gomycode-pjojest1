@@ -1,300 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>James wagacha - Portfolio project</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--<style>
-        /* this is to just styles the entire body */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #4b5e70;
-            color: #cdd9e7;
-            margin: 0;
-            padding: 0;
-        }
-        /* Styles for header  */
-        header  {
-            background-color: #060120;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
-        }
-        /*style for the image*/
-        .img-profile{
-            width: 300px;
-            height: 200px;
-            margin-right: 10000px;
-            padding: 0px;
-        }
-        header h1 {
-            margin: 0;
-            padding: 0;
-            font-size: 4.5rem;
-        } 
-         /* Styles for footer  */
-        footer {
-            background-color: #06b983;
-            color: #ffffff;
-            padding: 1rem;
-            text-align: center;
-        }
-        /*removing the bullets from the ul*/
-        ul {
-            list-style: none;          
-        }
-        /*adding hover to the ul*/
-       ul li a:hover {
-            background-color: #f1f3f0;
-            border-radius: none;    
-        }
-       footer ul {
-            display: flex;
-            justify-content: center;
-            margin: 0 1rem;
-       }
-       footer ul li {
-        padding: 0.5rem 1rem;
-        transition: background 0.3s ease;
-        
-       }
-        .fa-linkedin-in{
-            font-size: 45px;
-            color: rgb(5, 32, 151);
-       }
-       .fa-square-instagram {
-        font-size: 25px;
-        color: rgb(235, 90, 6);
-       }
-       .fa-square-x-twitter {
-        font-size: 32px;
-        color: rgb(3, 4, 10);
-       }
-       .fa-square-whatsapp {
-        font-size: 55px;
-        color: rgb(5, 32, 151);
-       }
-       .fa-square-facebook{
-        font-size: 60px;
-        color: rgb(6, 49, 238);
-       }
-        /* Styles for navigation bar */
-        nav {
-            background-color: #2a3c4e;
-            padding: 0.5rem 0;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin: 0 1rem;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            transition: background 0.3s ease;
-        }
-        nav ul li a:hover {
-            background-color: #6c7881;
-            border-radius: 5px;
-        }
-        /* Styles for the main content */
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 2rem auto;
-            max-width: 1200px;
-        }
-        /* Styles for each section */
-       div {
-            background: #033f39;
-            margin: 1rem;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            
-        }
-        div h2 {
-            
-            margin-top: 0;
-            font-size: 2rem;
-        }
-       
-        /* Styles for video and audio elements */
-        video, audio {
-            width: 50%;
-            margin-top: 1rem;
-            border-radius: 10px;
-            align-items: left;
-        }
-        /* Styles for the table */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 1rem;
-        }
-        table, th, td {
-            border: 1px solid #dee2e6;
-        }
-        th, td {
-            padding: 0.75rem;
-            text-align: left;
-        }
-        /* Styles for the form */
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-        form label {
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-        }
-        form input, form textarea {
-            padding: 0.5rem;
-            margin-bottom: 1rem;
-            border: 1px solid #ced4da;
-            border-radius: 5px;
-        }
-        form button {
-            padding: 0.75rem;
-            background-color: #343a40;
-            color: #fff;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-        form button:hover {
-            background-color: #1f2a35;
-        }
-    </style>-->
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" /> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- the header section -->
     <header>
-        <img class="img-profile" src="images\image1.jpg" alt="my profile" height="200px">
-        <h1>James Wagacha</h1>
-        <p>Web Developer | Designer | Programmer</p>
-       <!-- --> 
+     
+      <h1> <b>JAMES WAGACHA</b>
+      <p> Developer | Designer | Programmer</p></h1>
+      <!-- title for the body-->
+       <!--some social links-->
+       <!-- <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/james-wagacha-4b1045242/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+           </li>
+           <li>
+            <a href="https://x.com/Jachadot" target="_blank">
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
+          </li>
+          <li><i class="fa-solid fa-envelope"></i></li>
+         </ul>-->
     
-    </header>
-    <!-- tthe navigation bar -->
-    <nav> <style>ul {
-        list-style: none;          
-    }
-    /*adding hover to the ul*/
-   ul li a:hover {
-        background-color: #1c4707;
-        border-radius: none;    
-    }</style>
-        <ul >
-           
-            <button>
-            <li><a href="#">HOME</a></li></button>
-            <button>
-            <li><a href="#">ABOUT</a></li></button>
-            <button>
-            <li><a href="#">WORK</a></li></button>
-            <button>
-            <li><a href="#">RESUME</a></li></button>
-            <button>
-            <li><a href="#">CONTACT</a></li></button>
-        
+      <!-- the navigation bar -->
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#skills">RESUME</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
-    </nav>
-    <!-- Main content area -->
-    <main>
-        <!-- About Me section -->
+      </nav>
+      <div class="logo">
+        <img 
+         class="img-profile"
+        src="images\logo3.jpg"
+         alt="my profile"/>
+      </div>
+     
+    </header>
+
+    <!-- Main content area
+
+       About Me section -->
+   <main>
+    <section id="about">
+      
+        <div class="idea">
+          <img src="images\think1.jpg" alt="resources">
+        </div>
+      
+       <div id="container"><h2>
+              <b><u>About Me!</u></b><br>
+            </h2>
          
-        <div id="about">
-            <h2><b><u>About Me!</u></b></h2>
-            <p><b><I>Welcome to my portfolio. My name s James, an aspiring web developer and programmer. This is my first project at GOMycode. Come take a journey with me as I dive into web development and programming. </I></b></p>
-            <!-- Video element -->
-            <video controls>
-                <source src="C:\Users\MEMZ\Desktop\Gomycode\projects\portfolio\vids\Dance_Boston_Dynamics.mp4">
-                Your browser does not support the video tag.
-            </video> 
-          <!--  <iframe
-            width="420"
-            height="315"
-            src=https://youtu.be/nAgTgwak7ME?si=heu4Ap2t7CdCQPOK
-        ></iframe>-->
-        </div>
-        <!-- Projects section -->
-        <div id="projects">
-            <h2>Projects</h2>
+            <div class="profile-image">
+                 <img src="images\image.1.jpg" alt="James Wagacha">
+                </div>
+             
+          
+                <p>
+                 <b><i>Welcome to my portfolio. My name is James, an aspiring <strong>
+                  Developer and Programmer.</strong> This is my first project at GOMycode.
+                  Come take a journey with me as I dive into web development and
+                 programming.
+                 </i></b>
+                  </p>
+                  
+                <p2><strong><style>p2{color:blue;}</style> Down |Memory Lane</p2>
+                <p><br><br>
+                In high school, my fascination with computers began, especially with coding. 
+                This interest led me to pursue BBIT in campus, where I joined coding clubs and shifted my focus to 
+                software development due to its significant benefits and professional freedom. I started with front-end 
+                development, working with languages like <b>, NodeJS, Java, JavaScript, CSS, </b>and <b>HTML</b>, and explored databases 
+                like <b>MongoDB, MySQL,</b> and My goal is to contribute to impactful innovations in the tech industry. 
+                </p><br>
+                <p2>
+                  <style></style>
+                  <strong><style>p2{color:blue;}</style>|Back To |The Now</strong><br><br>
+                </p2>
+                <p>
+                  at current I am furthering my web development career at GOMycode, this is by re-learnig basics in<b> HTML(Front end)</b>
+                  developer and later on transition to understanding<b>Database and it's environment(Back end)</b> thus fully becoming a <strong>Fullstack Developer.</strong>
+                  So join me in this epic journey.<a href="#work">see my projects</a> 
+                </p>
+      </div>
+        
+   </section>
+             <!-- Projects section -->
+      <section id="work">
+        <div id="container">
+           <div class="items">
+               <h2>Projects</h2>
+                                  <!--<ul>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1997s"
+              target="_blank"
+              >HTML project 1</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=yfoY53QXEnI&t=84s"
+              target="_blank"
+              >CSS project 1</a>
+             </li>
+            <li>
+            <a
+              href="https://www.youtube.com/watch?v=hdI2bqOjy3c"
+              target="_blank"
+              >js project 1</a>
+                  </li>
+              </ul>-->
+               <div class="work-item">
+                <h3><strong>Google</strong></h3>
+                <p>Worked for Google from 2010 to 2020</p>
+               </div>
+        
+               <div class="work-item">
+                <h3><strong>Safaricom</strong></h3>
+                <p>Worked for Safaricom from 2010 to 2020</p>
+               </div>
+        
+               <div class="work-item">
+                <h3><strong>Meta</strong></h3>
+                <p>Worked for Meta from 2010 to 2020</p>
+               </div>
+
+            </div> 
+        </div>  
+        <div class="schools">
+          <h2><strong>|Resources</strong></h2>
+             <table>
+           <tr>
+        <th></th>   
+        
+        <th>|Some helpfull resources.</th>
+          <tr>
+            <td>Networking platforms</td>
+           <td>for all languages.</td>
+           <td>
             <ul>
-                <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1997s">HTML project 1</a></li>
-                <li><a href="https://www.youtube.com/watch?v=yfoY53QXEnI&t=84s">CSS project 1</a></li>
-                <li><a href="https://www.youtube.com/watch?v=hdI2bqOjy3c">js project 1</a></li>
+              <li><a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
             </ul>
-        </div>
-        <!-- Skills section -->
-        <div id="skills">
+           </td>
+           
+           </tr> 
+           <tr>
+            <td>schools</td>
+           <td>Online courses</td>
+           <td>
+            <ul>
+              <li> <a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
+              <li><a href="#">to be added later</a></li>
+            </ul>
+           </td>
+           
+          </table>
+    </div>     
+      </section> 
+      <div id="logos1"><ul>
+        <li> <a href="#"><i class="fa-brands fa-python"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-node-js"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-js"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-java"></i></a></li>
+        </ul>
+    </div> 
+      <!-- Skills section -->
+      <section id="skills">
+        <div class="container">
             <h2>Skills</h2>
-            <!-- Table element -->
-            <table>
-                <tr>
-                    <th>Skill</th>
-                    <th>Level</th>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>Beginner</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Beginner</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Intermediate</td>
-                </tr>
-            </table>
-            <!-- Audio element -->
-            <audio controls>
-                <source src="C:\Users\MEMZ\Desktop\Gomycode\projects\portfolio\audio\10 Eggs.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        <!-- Contact section -->
-        <div id="contact">
-            <h2>Contact Me</h2>
+        <!-- Table element -->
+        <table>
+          <tr>
+            <th>skill</th>
+            <th>Level</th>
+            <th>Tasks</th>
+          </tr>
+          <tr>
+            <td><strong>Web Developer</strong></td>
+            <td>professional</td> 
+            <td>-designing web pages for institutions and bussinesses.<br>
+                -styling web pages with css and javascript.<br>
+                -debugging software code.<br>
+                -communicating with clients on best maintenace practice 
+                
+            </td>
+               </tr>
+              <tr>
+            <td><strong>Python Programmer</strong></td>
+            <td>Intermediate</td>
+            <td>-self taught.<br>
+                -projects; digital watch, calculator...<br>
+                           
+            </td>
+               </tr>
+              <tr>
+            <td><strong>Networking</strong></td>
+            <td>Intermediate</td>
+            <td>-trouble shooting network issues.<br>
+                -installing computer network systems and softwares; servers and router configuration.<br>
+                -CCTV and land line installation.<br>
+                -Installing cable and system harrdwares; fiba optic cable installation, switches, motion senssors and cctv cameras.           
+            </td>
+              </tr>
+          
+          </table>
+                  <!-- Audio element -->
+              <audio controls>
+                    <source
+                    src="C:\Users\MEMZ\Desktop\Gomycode\projects\portfolio\audio\10 Eggs.mp3"
+                     type="audio/mp3"/>
+                           Your browser does not support the audio element.
+               </audio>
+      </div> 
+      </section>
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+        <div class="conts">
+           <div class="tel">
+              <p><i class="fa-sharp fa-solid fa-phone-volume"></i> <a href="   tel:+254743438997">+254743438997</a></p>
+              <p><i class="fa-solid fa-envelope"></i><a href=" mailto:jameswagacha13@gmail.com?subject=Let's Work Together">jameswagacha13@gmail.com</a></p>
+            </div>
             <!-- HTML form -->
-            <form action="submit-form.html" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+             <div class="form">
+                <form action="submit-form.html" method="get">
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="name" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="2" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </div>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                    <div class="mess">
+                            <label for="message">Message:</label>
+                             <textarea id="message" name="message" rows="2" required></textarea>
+                            <label>
+                             <button type="submit"><!--a href="file:///C:/Users/MEMZ/Desktop/Gomycode/projects/portfolio/submit.html" target="_blank"></a>--> Send
+                            </button>
+                          </label> 
+                    </div>        
+                </form>
+              </div>
+          </div>    
+      </section>
     </main>
     <!-- Footer section -->
     <footer>
-        <h2>My contacts</h2>
-        <ul>
-            <li><i class="fa-brands fa-linkedin-in"></i><a href="#"></li> 
-            <li><i class="fa-brands fa-square-instagram"></i><a href="#"></li>
-            <li><i class="fa-brands fa-square-x-twitter"></i><a href="#"></li>
-            <li><i class="fa-brands fa-square-whatsapp"></i><a href="#"></li>
-                <li><i class="fa-brands fa-square-facebook"></i><a href="#"></li>
-        </ul>
-        <p>&copy; 2024 James Wagacha. All rights reserved.</p>
+      <h2>My contacts</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/james-wagacha-4b1045242/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://x.com/Jachadot" target="_blank">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2024 James Wagacha. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
+
+
+
+<!-- Video element 
+  <source
+  src="vids\Dance_Boston_Dynamics.mp4"/>
+                 Your browser does not support the video tag.
+</video>-->
