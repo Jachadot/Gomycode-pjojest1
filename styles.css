@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* this is to just styles the entire body */
 * {
   margin: 0;
@@ -11,7 +10,7 @@
   display: flex;
   flex-direction: column;
   background-color:#06071d;
-  
+  font-family: "Roboto", sans-serif;
   color: aliceblue;
   font-weight: 400;
   font-style: normal;
@@ -139,11 +138,11 @@ section#work table,th,td {
 section#work th,td {
   padding: 0.75rem;
   text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
 section#work .work-item {
   margin-bottom: 20px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+ /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;*/
   display:grid;
 }
 section#work .work-item p { 
@@ -213,7 +212,7 @@ section#skills table,th,td {
 section#skills th,td {
   padding: 0.75rem;
   text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 }
 
 /*styles for the contact section*/
@@ -305,311 +304,3 @@ footer ul li {
 
 
 
-=======
-/* this is to just styles the entire body */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*style for the body*/
- body{
-  display: flex;
-  flex-direction: column;
-  background-color:#06071d;
-  
-  color: aliceblue;
-  font-weight: 400;
-  font-style: normal;
-} 
-
-/*styling the header*/
-header{
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  padding: 1rem;
-
-}
-/*targetting the p in h1*/
-header h1 p{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size:large;
-  font-weight: 200;
-  font-style: italic;
-  
-} 
-/*styling the logo*/
-header img{
-  margin-bottom: 10px;
-  max-width: 150px;
-  border-radius: 55px;
-}
-/*header ul{
-  display: flex;
-  justify-content: center;
-  margin: 0 1rem;
-
-}
-header ul li {
-  padding: 0.5rem 1rem;
-  transition:  0.9s ease;
-}
-header.fa-linkedin-in {
-  font-size: xx-small;
-  color: rgb(19, 50, 143);
-}*/
-/* Styles for navigation bar */
-nav {
-  max-width: 60%;
-    margin: 0 auto;
-    text-align: center;
-}nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 100px 3px 0 3px;
-}
-nav ul li {
-  margin: 0 1rem;
-}
-nav ul li a {
-  color: #f8e802;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  transition: 0.9s ease;
-}
-nav ul li a:hover {
-  background-color: #2169a0;
-  border-radius: 7px;
-}
-/*styling the logo*/
-div.logo {
-     align-items: first baseline;
-}
-/*styling the sections in general*/
-section {
-  margin-bottom: 100px;
-}
-/*styling the h2 in all sections*/ 
-section h2 {
-  margin-bottom: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-/*styling the p in all sections*/
-section p {
-  margin-bottom: 10px;
-  line-height: 25px;
-}
-/*styling the about section*/
-section#about {
-  display:flex;
-  flex-direction: row;
-  max-width: 90%;
-  margin: 0 auto;
-   padding: 30px 10px; 
-}
-section#about p{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-}
-section#about .idea img{
-  margin-bottom: 10px;
-  size: 100px;
-  padding: 0 ;
-}
-section#about .profile-image img{
-  margin-bottom: 10px;
-  max-width: 150px;
-  border-radius: 49%;
-  padding: 0 ;
-}
-/*styling all containers*/
-
-/*styling the work section*/
-section#work {
-  display:flex;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 30px 10px; 
-}
-section#work table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-section#work table,th,td {
-  border: 0;
-}
-section#work th,td {
-  padding: 0.75rem;
-  text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-section#work .work-item {
-  margin-bottom: 20px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  display:grid;
-}
-section#work .work-item p { 
-  font-style: italic;
-}
-div.items{
-  padding: 5px 5px;
-  
-}
-div.schools{
-  padding:  0 0 0 150px;
-}
-div.schools ul{
-  justify-content: center;
-  margin: 0 1rem;
-  list-style: none;
-}
-#logos1{
-  background-color: #301111;
-}
-#logos1 ul{
-  display: flex;
-  justify-content: center;
-  margin: 0 1rem;
-  list-style: none;
-  color: #fff;
-  
-}
-#logos1 ul li{ 
-  padding: 2.9rem 6rem;
-  transition:  0.9s ease;
-  size: 50px;
-}
-.fa-python {
-  font-size: 50px;
-  color: rgb(252, 252, 253);
-}
-.fa-node-js {
-  font-size: 50px;
-  color: rgb(247, 247, 248);
-}
-.fa-js{
-  font-size: 50px;
-  color: rgb(251, 252, 255);
-}
-.fa-java{
-  font-size: 50px;
-  color: rgb(243, 244, 247);
-}
-/*styles for the projects*/
-section#skills {
-  display:flex;
-  flex-direction: row;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 50px 0px; 
-}
-     /* Styles for the skills table*/
-section#skills table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-section#skills table,th,td {
-  border: 0;
-}
-section#skills th,td {
-  padding: 0.75rem;
-  text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*styles for the contact section*/
-section#contact {
-  
-  margin: 0 auto;
-  margin-bottom: 20px;
-  max-width: 90%;
-}
-div.conts {
-  display: flex;
-  flex-direction: row;
-  padding: 40px;
-
-}
-
-div.form form{
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  padding: 0 0 0 50px;
-}
-section#contact form label {
-  font-size: 0.85em;
-  margin-bottom: 5px;
-}
-section#contact  form input,
-section#contact  form textarea{
-  display: flex;
-  flex-direction: column;
-  max-width: 95%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
-}
-form button {
-  padding: 0.75rem;
-  background-color: #0324b9;
-  color: #fff;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-  transition: 0.45s ease;
-}
-form button:hover {
-  background-color: #1f2a35;
-}
-
-/* Styles for footer */ 
-footer {
-  background-color: #301111;
-  color: #ffffff;
-  padding: 1rem;
-  text-align: center;
-}
-footer ul {
-  display: flex;
-  justify-content: center;
-  margin: 0 1rem;
-  list-style: none;
-  
-}
-footer ul li {
-  padding: 0.5rem 1rem;
-  transition:  0.9s ease;
-  size: 50px;
-}
-.fa-linkedin-in {
-  font-size: 30px;
-  color: rgb(243, 244, 247);
-}
-.fa-square-instagram {
-  font-size: 30px;
-  color: rgb(252, 252, 253);
-}
-.fa-square-x-twitter {
-  font-size: 30px;
-  color: rgb(247, 247, 248);
-}
-.fa-square-whatsapp {
-  font-size: 30px;
-  color: rgb(251, 252, 255);
-}
-.fa-square-facebook {
-  font-size: 30px;
-  color: rgb(243, 244, 247);
-}
-
-
-
->>>>>>> 458eef9ab9288981521e36e8121177ba3352ac79
